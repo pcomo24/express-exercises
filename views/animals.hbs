@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{title}}</title>
+  </head>
+  <body>
+    <ul>
+      {{#each animals}}
+        {{#if favorite}}
+          <li>{{name}}</li>
+        {{/if}}
+      {{/each}}
+    </ul>
+  </body>
+</html>
